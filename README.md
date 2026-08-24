@@ -120,3 +120,15 @@
 
 Update tar file with new results in directory:<br>
 `./scripts/archive_dir.sh <directory>`
+
+
+
+## Combine Summary from All BACs
+```bash
+python btl-utils-main/python/combine_bac_<sm/dm>_summary_roots.py \
+--CIT <CIT/sm_summary/> \ 
+--UVA <UVA/sm_summary/> \ 
+--MIB <MIB/sm_summary/> \ 
+--PKU <PKU/sm-summary/> \
+--outdir <outdir>
+```
